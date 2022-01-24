@@ -1,7 +1,8 @@
 .section1{
     background-color: #C5CAE9;
     display: flex;    
-    flex-direction: row;        
+    flex-direction: row;
+    height: 92%;        
 
     &_left{
         width: 50%;
@@ -21,7 +22,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            height: 500px;
+            height: 830px;
             
         }
         

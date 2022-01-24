@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { ContentModule } from './content/content.module';
+import { MenuModule } from './menu/menu.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +21,8 @@ import { ContentModule } from './content/content.module';
     BrowserAnimationsModule,
     NgbModule,
     HeaderModule,
-    ContentModule
+    ContentModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
