@@ -1,58 +1,125 @@
 <mat-card class="section1">
-    <mat-card class="section1_left">
-      <h3><a name="quemsou"> </a> Quem sou</h3>
-          <p class="text-justify">
-             &nbsp;&nbsp; Meu nome é Álvaro Augusto Pereira, sou natural da cidade de Itu no interior de São Paulo, e para quem não sabe, Itu é conhecida como
-             a "Cidade Dos Exageros", ou seja, onde tudo é "GRANDE". Como minha estatura não condiz com a fama da cidade, rapidamente eu fui apelidado
-             de Itu pelo pessoal da faculdade, continuou no mestrado e até hoje muitos me conhecem pelo apelido: Itu, por isso que o logotipo, redes
-             sociais e futuro canal no youtube possuem esse nome: Álvaro Itu. Sagitariano nascido em 26 de Novembro de 1981, sou viajante por natureza,
-             adoro animais, aprecio um bom livro e fã dos Engenheiros do Hawaii. Gosto de estar com meus amigos e família nos tempos livres, filmes e séries também me divertem.
-          </p>
-          <p class="text-justify">
-              &nbsp;&nbsp; Sou Engenheiro Cartógrafo formado pela Unesp de Presidente Prudente, fiz mestrado em Geofísica no IAG/USP e Pós-graduação em Docência
-              do Ensino Superior pela UNOPAR. No momento estou cursando Ciência da Computação e MBA em Gestão de TI.
-          </p>
-          <p class="text-justify">
-              &nbsp;&nbsp; Trabalhei mais de 9 anos em um empresa de aerolevantamento geofísico. Comecei como processador de dados de campo,
-              depois subgerente e em seguida gerente do departamento de processamento de dados. Trabalhei fazendo home office por 4 anos em Bogotá,
-              Colômbia, também como gerente do departamento de processamento de dados além de coordenador de logística e outros serviços.
-          </p>
-          <p class="text-justify">
-              &nbsp;&nbsp; Além de Bogotá, morei em Presidente Prudente/SP, São Paulo e Rio de Janeiro. Durante esses 9 anos trabalhando como geofísico
-              estive em várias cidades do Brasil. Fiz intercâmbio de 1 mês em Sydney/Austrália e 1 semana em Auckland/Nova Zelândia.
-              Atualmente moro em Itu, e sou sócio em um estabelecimento comercial do ramo de bares e restaurantes
-              <a id="aBar" href="https://www.facebook.com/blackoutpubitu/">(Blackout Pub Bar & Restaurante).</a>
-          </p>
-    </mat-card>
-    <mat-card class="section1_right">
-      <ngb-carousel class="section1_right_carroussel" *ngIf="images">
-          <ng-template ngbSlide>
-            <div class="imagemCarroussel">
-              <img [src]="images[0]" alt="Random first slide">
-            </div>
-            <div class="carousel-caption">
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </ng-template>
-          <ng-template ngbSlide>
-            <div class="imagemCarroussel">
-              <img [src]="images[1]" alt="Random second slide">
-            </div>
-            <div class="carousel-caption">
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </ng-template>
-          <ng-template ngbSlide>
-            <div class="imagemCarroussel">
-              <img [src]="images[2]" alt="Random third slide">
-            </div>
-            <div class="carousel-caption">
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-          </ng-template>
-        </ngb-carousel>
+  <mat-card class="section1_section2">
+    <h1>Quem Sou...</h1>
+    <div class="section1_section2_content">
+      <mat-card class="section1_section2_content_left">        
+        <p class="text-justify">
+          &nbsp;&nbsp; Meu nome é Álvaro Augusto Pereira, sou natural da cidade de Itu no interior de São Paulo, e para quem não sabe, Itu é conhecida como
+          a "Cidade Dos Exageros", ou seja, onde tudo é "GRANDE". Como minha estatura não condiz com a fama da cidade, rapidamente eu fui apelidado
+          de Itu pelo pessoal da faculdade, continuou no mestrado e até hoje muitos me conhecem pelo apelido: Itu, por isso que o logotipo, redes
+          sociais e futuro canal no youtube possuem esse nome: Álvaro Itu. Sagitariano nascido em 26 de Novembro de 1981, sou viajante por natureza,
+          adoro animais, aprecio um bom livro e fã dos Engenheiros do Hawaii. Gosto de estar com meus amigos e família nos tempos livres, filmes e séries também me divertem.
+        </p>
+        <p class="text-justify">
+            &nbsp;&nbsp; Sou Engenheiro Cartógrafo formado pela Unesp de Presidente Prudente, fiz mestrado em Geofísica no IAG/USP e Pós-graduação em Docência
+            do Ensino Superior pela UNOPAR. No momento estou cursando Ciência da Computação e MBA em Gestão de TI.
+        </p>
+        <p class="text-justify">
+            &nbsp;&nbsp; Trabalhei mais de 9 anos em um empresa de aerolevantamento geofísico. Comecei como processador de dados de campo,
+            depois subgerente e em seguida gerente do departamento de processamento de dados. Trabalhei fazendo home office por 4 anos em Bogotá,
+            Colômbia, também como gerente do departamento de processamento de dados além de coordenador de logística e outros serviços.
+        </p>
+        <p class="text-justify">
+            &nbsp;&nbsp; Além de Bogotá, morei em Presidente Prudente/SP, São Paulo e Rio de Janeiro. Durante esses 9 anos trabalhando como geofísico
+            estive em várias cidades do Brasil. Fiz intercâmbio de 1 mês em Sydney/Austrália e 1 semana em Auckland/Nova Zelândia.
+            Atualmente moro em Itu, e sou sócio em um estabelecimento comercial do ramo de bares e restaurantes
+            <a target="blank" href="https://www.facebook.com/blackoutpubitu/">(Blackout Pub Bar & Restaurante).</a>
+        </p>
       </mat-card>
+      <mat-card class="section1_section2_content_right">
+        <ngb-carousel class="section1_section2_content_right_carroussel" *ngIf="images">
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[0]" alt="Random first slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Homem Sério</h2>
+                <h3>Aquela foto de crachá.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[1]" alt="Random second slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Bogotá/Col</h2>
+                <h3>Período morando fora.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[2]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Aeronave de Geofísica</h2>
+                <h3>Umas das aeronaves de aerolevantamento.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[3]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Sidney/Aus</h2>
+                <h3>Opera House, lindo lugar.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[4]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Sidney/Aus</h2>
+                <h3>Koala - que animal sensacional, lindo e fofo demais.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[5]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Sidney/Aus</h2>
+                <h3>Bondi Beach - água fria demais para o meu gosto.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[6]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Centro de Itu/SP</h2>
+                <h3>Selfie para registrar o momento.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[7]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Homem Sério</h2>
+                <h3>Aquela foto de crachá.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[8]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Homem Sério</h2>
+                <h3>Aquela foto de crachá.</h3>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="imagemCarroussel">
+                <img [src]="images[9]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h2>Homem Sério</h2>
+                <h3>Aquela foto de crachá.</h3>
+              </div>
+            </ng-template>            
+          </ngb-carousel>
+      </mat-card>
+    </div>
+  </mat-card>
 </mat-card>
