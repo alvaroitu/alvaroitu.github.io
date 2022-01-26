@@ -21,9 +21,6 @@ import { ContentComponent } from './content.component';
     MatCardModule,
     NgbModule,
     MatIconModule
-  ],
-  exports: [
-    ContentComponent
   ]
 })
 export class ContentModule { }

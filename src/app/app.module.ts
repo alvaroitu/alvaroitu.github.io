@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { ContentModule } from './content/content.module';
 import { MenuModule } from './menu/menu.module';
+import { FormacaoModule } from './formacao/formacao.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -22,7 +23,8 @@ import { MenuModule } from './menu/menu.module';
     NgbModule,
     HeaderModule,
     ContentModule,
-    MenuModule
+    MenuModule,
+    FormacaoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    img{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    p{
+        margin: 0;
+        padding: 0;
+    }
+
+    div{
+        align-items: center;
+    }
+}

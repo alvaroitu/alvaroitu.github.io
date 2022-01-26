@@ -5,6 +5,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 
 import { MenuComponent } from './menu.component';
+import { RouterModule } from '@angular/router';
+import { MatToolbar, MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -15,7 +17,9 @@ import { MenuComponent } from './menu.component';
   imports: [
     CommonModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    RouterModule,
+    MatToolbarModule
   ],
   exports: [
     MenuComponent

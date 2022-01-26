@@ -8,15 +8,16 @@
         flex-direction: column;
         align-items: center;
 
-        h1{
-            color: black;
+        &_titulo{
+            font-size: 28px;            
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
         }
 
         &_content{
+            background-color: #C5CAE9;
             display: flex;
-            flex-direction: rox;
+            flex-direction: row;
 
             &_left{
                 width: 50%;
@@ -25,7 +26,7 @@
 
                 p{
                     color: black;
-                    font-size: 18px;
+                    font-size: 20px;
                     line-height: 1.5;                    
                     font-family: 'Times New Roman', Times, serif;
                 }
@@ -33,13 +34,17 @@
             
             &_right{
                 width: 50%;
-                background-color: #3F51B5;
+                background-color: #3F51B5;                
 
                 img{
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
-                    height: 750px;
+                    height: 720px;
+                }
+
+                #Bogota, #Bondi{
+                    color: black;
                 }
             }
         }
@@ -47,10 +52,10 @@
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 900px) {
     .section1{
         background-color: #C5CAE9;    
-        height: 91.5%;
+        height: auto;
     
         &_section2{
             background-color: #9FA8DA;
@@ -58,25 +63,44 @@
             flex-direction: column;
             align-items: center;
     
+            h1{
+                color: black;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+            }
+    
             &_content{
                 display: flex;
-                flex-direction: rox;
+                flex-direction: column;
+                justify-content: center;
     
                 &_left{
-                    width: 50%;
+                    width: auto;
                     font-size: 16px;            
                     color: black;
+    
+                    p{
+                        color: black;
+                        font-size: 18px;
+                        line-height: 1.5;                    
+                        font-family: 'Times New Roman', Times, serif;
+                    }
                 }
                 
                 &_right{
-                    width: 50%;
+                    width: auto;
                     background-color: #3F51B5;
     
                     img{
                         display: block;
                         margin-left: auto;
                         margin-right: auto;
-                        height: 750px;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    h2, h3{
+                        display: none;
                     }
                 }
             }

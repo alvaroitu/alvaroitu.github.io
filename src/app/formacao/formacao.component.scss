@@ -1,0 +1,114 @@
+.section1{
+    background-color: #C5CAE9;    
+    height: 91.5%;
+
+    &_section2{
+        background-color: #9FA8DA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_titulo{
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        &_content{
+            background-color: #C5CAE9;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &_formacoes{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #3F51B5;
+                margin-left: 3px;
+                margin-right: 3px;
+
+                &_up{
+                    color: white;
+                    font-size: 26px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+
+                &_down{
+                    line-height: 1.5;
+                    font-family: 'Times New Roman', Times, serif;
+
+                    &_faculdade{
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+
+                    &_curso{
+                        font-size: 22px;
+                    }
+                }
+                
+            }            
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .section1{
+        background-color: #C5CAE9;    
+        height: auto;
+    
+        &_section2{
+            background-color: #9FA8DA;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            &_titulo{
+                font-size: 28px;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+            }
+    
+            &_content{
+                background-color: #C5CAE9;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                &_formacoes{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: #3F51B5;
+                    margin-top: 3px;
+                    margin-bottom: 3px;
+    
+                    &_up{
+                        color: white;
+                        font-size: 26px;
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+    
+                    &_down{
+                        line-height: 1.5;
+                        font-family: 'Times New Roman', Times, serif;
+    
+                        &_faculdade{
+                            font-size: 24px;
+                            font-weight: bold;
+                        }
+    
+                        &_curso{
+                            font-size: 22px;
+                        }
+                    }
+                    
+                }            
+            }
+        }
+    }
+}

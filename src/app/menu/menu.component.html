@@ -1,17 +1,13 @@
-<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-    <mat-icon>more_vert</mat-icon>
-  </button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>
-      <mat-icon>dialpad</mat-icon>
-      <span>Redial</span>
-    </button>
-    <button mat-menu-item disabled>
-      <mat-icon>voicemail</mat-icon>
-      <span>Check voice mail</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>notifications_off</mat-icon>
-      <span>Disable alerts</span>
-    </button>
+<mat-toolbar color="primary" class="menu mat-elevation-z8">
+  <div [matMenuTriggerFor]="menu">
+    <img  style="height: 40px;" 
+    class="header_image" 
+    src="./assets/images/logo/AlvaroItuLogo.png">
+  <p>Menu</p>
+  </div>    
+  <mat-menu #menu="matMenu">      
+    <a mat-menu-item routerLink='/' routerLinkActive="active"
+    [routerLinkActiveOptions]="{exact:true}">Quem Sou...</a>
+    <a mat-menu-item routerLink='/formacao' routerLinkActive="active">Formação</a>
   </mat-menu>
+</mat-toolbar>

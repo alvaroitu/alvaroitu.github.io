@@ -1,7 +1,7 @@
 <mat-card class="section1">
   <mat-card class="section1_section2">
-    <h1>Quem Sou...</h1>
-    <div class="section1_section2_content">
+    <p class="section1_section2_titulo">Quem Sou...</p>
+    <mat-card class="section1_section2_content">
       <mat-card class="section1_section2_content_left">        
         <p class="text-justify">
           &nbsp;&nbsp; Meu nome é Álvaro Augusto Pereira, sou natural da cidade de Itu no interior de São Paulo, e para quem não sabe, Itu é conhecida como
@@ -42,8 +42,8 @@
                 <img [src]="images[1]" alt="Random second slide">
               </div>
               <div class="carousel-caption">
-                <h2>Bogotá/Col</h2>
-                <h3>Período morando fora.</h3>
+                <h2 id="Bogota">Bogotá/Col</h2>
+                <h3 id="Bogota">Período morando fora.</h3>
               </div>
             </ng-template>
             <ng-template ngbSlide>
@@ -78,8 +78,8 @@
                 <img [src]="images[5]" alt="Random third slide">
               </div>
               <div class="carousel-caption">
-                <h2>Sidney/Aus</h2>
-                <h3>Bondi Beach - água fria demais para o meu gosto.</h3>
+                <h2 id="Bondi">Sidney/Aus</h2>
+                <h3 id="Bondi">Bondi Beach - água fria demais para o meu gosto.</h3>
               </div>
             </ng-template>
             <ng-template ngbSlide>
@@ -120,6 +120,6 @@
             </ng-template>            
           </ngb-carousel>
       </mat-card>
-    </div>
+    </mat-card>
   </mat-card>
 </mat-card>
