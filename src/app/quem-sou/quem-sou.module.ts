@@ -1,20 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon'
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
-
-
-import { ContentComponent } from './content.component';
-
-
+import { QuemSouComponent } from './quem-sou.component';
 
 @NgModule({
   declarations: [
-    ContentComponent
+    QuemSouComponent
   ],
   imports: [
     CommonModule,
@@ -23,4 +19,4 @@ import { ContentComponent } from './content.component';
     MatIconModule
   ]
 })
-export class ContentModule { }
+export class QuemSouModule { }

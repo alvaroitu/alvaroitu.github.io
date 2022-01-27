@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-content',
-  templateUrl: './content.component.html',
-  styleUrls: ['./content.component.scss']
+  selector: 'app-quem-sou',
+  templateUrl: './quem-sou.component.html',
+  styleUrls: ['./quem-sou.component.scss']
 })
-export class ContentComponent implements OnInit {
+export class QuemSouComponent implements OnInit {
 
   images = ['2AlvaroLinkedin2.jpg',
             '3AlvaroBogota.jpg',

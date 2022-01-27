@@ -1,0 +1,116 @@
+.section1{
+    background-color: #C5CAE9;    
+    //height: 91.5%;
+
+    &_section2{
+        background-color: #9FA8DA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 550px;
+        margin: 0;
+        padding: 0;
+
+        &_titulo{
+            font-size: 28px;            
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        &_content{
+            background-color: #C5CAE9;
+            display: flex;
+            flex-direction: row;
+
+            &_left{
+                width: 50%;
+                font-size: 16px;            
+                color: black;
+
+                p{
+                    color: black;
+                    font-size: 20px;
+                    line-height: 1.5;                    
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+            
+            &_right{
+                width: 50%;
+                background-color: #3F51B5;                
+
+                img{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 720px;
+                }
+
+                #Bogota, #Bondi{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .section1{
+        background-color: #C5CAE9;    
+        height: auto;
+    
+        &_section2{
+            background-color: #9FA8DA;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            h1{
+                color: black;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+            }
+    
+            &_content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                &_left{
+                    width: auto;
+                    font-size: 16px;            
+                    color: black;
+    
+                    p{
+                        color: black;
+                        font-size: 18px;
+                        line-height: 1.5;                    
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                }
+                
+                &_right{
+                    width: auto;
+                    background-color: #3F51B5;
+    
+                    img{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    h2, h3{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+::ng-deep .mat-dialog-container{
+    background-color: #C5CAE9;
+}
