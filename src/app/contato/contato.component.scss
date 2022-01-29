@@ -69,6 +69,7 @@
     .section1{
         background-color: #9FA8DA;
         text-align: right;
+        overflow: auto;
     
         &_button{
             border: none;
