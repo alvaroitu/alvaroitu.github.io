@@ -10,15 +10,15 @@ import { ContatoComponent } from '../contato/contato.component';
 })
 export class HeaderComponent implements OnInit {
   
-  constructor(public dialog: MatDialog,) { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
 
   openDialog() {
     this.dialog.open(ContatoComponent,{
-      width: '1200px',
-      height: '600px',
+      width: '1000px',
+      height: '500px',
     });
   }
 
