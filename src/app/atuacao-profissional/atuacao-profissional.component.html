@@ -6,9 +6,9 @@
           <p class="section1_section2_content_atuacoes_up">IBM Brasil - Indústria, Máquina e Serviços Ltda</p>
           <mat-card class="section1_section2_content_atuacoes_down">
             <p class="section1_section2_content_atuacoes_down_funcao">Aplication Developer - DevSecOps: 06/Set/2021 - atual</p>            
-            <mat-list *ngFor="let item of atividadesIBM">
-              <mat-list-item class="section1_section2_content_atuacoes_down_atividades"> {{item}} </mat-list-item>              
-            </mat-list>
+            <div *ngFor="let item of atividadesIBM">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>
             <br><br>
             <p class="section1_section2_content_atuacoes_down_funcao">Early Associate - Estágio DevSecOps: 14/Dez/2020 - 05/Set/2021</p>            
           </mat-card>
@@ -16,38 +16,40 @@
         <mat-card class="section1_section2_content_atuacoes">        
           <p class="section1_section2_content_atuacoes_up">Agência MktNow</p>
           <mat-card class="section1_section2_content_atuacoes_down">
-            <p class="section1_section2_content_atuacoes_down_funcao">Analista de BI Jr.</p>
-            <mat-list *ngFor="let item of atividadesMktNow">
-              <mat-list-item class="section1_section2_content_atuacoes_down_atividades"> {{item}} </mat-list-item>              
-            </mat-list>
-          </mat-card>
-        </mat-card>
-        <!-- <mat-card class="section1_section2_content_atuacoes">
-          <p class="section1_section2_content_atuacoes_up">Delogic Soluções em Informática Ltda</p>
-          <mat-card class="section1_section2_content_atuacoes_down">
-            <p class="section1_section2_content_atuacoes_down_funcao">UNOPAR - Universidade Norte do Paraná</p>
-            <mat-list *ngFor="let item of list">
-              <mat-list-item class="section1_section2_content_atuacoes_down_atividades"> {{item}} </mat-list-item>              
-            </mat-list>            
+            <p class="section1_section2_content_atuacoes_down_funcao">Analista de BI Jr.: 10/Jul/2020 - 21/Jul/2021</p>
+            <div *ngFor="let item of atividadesMktNow">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>
           </mat-card>
         </mat-card>
         <mat-card class="section1_section2_content_atuacoes">
-            <p class="section1_section2_content_atuacoes_up">Prospectors Aerolevantamentos e Sistemas Sucursal Colombia </p>
-            <mat-card class="section1_section2_content_atuacoes_down">
-              <p class="section1_section2_content_atuacoes_down_funcao">UNOPAR - Universidade Norte do Paraná</p>
-              <mat-list *ngFor="let item of list">
-                <mat-list-item class="section1_section2_content_atuacoes_down_atividades"> {{item}} </mat-list-item>              
-              </mat-list>
-            </mat-card>
+          <p class="section1_section2_content_atuacoes_up">Delogic Soluções em Informática Ltda</p>
+          <mat-card class="section1_section2_content_atuacoes_down">
+            <p class="section1_section2_content_atuacoes_down_funcao">Desenvolvedor Java Jr.: 19/Fev/2020 - 03/Abr/2020</p>
+            <div *ngFor="let item of atividadesDelogic">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>            
           </mat-card>
-          <mat-card class="section1_section2_content_atuacoes">
-            <p class="section1_section2_content_atuacoes_up">Prospectors Aerolevantamentos e Sistemas</p>
-            <mat-card class="section1_section2_content_atuacoes_down">
-              <p class="section1_section2_content_atuacoes_down_funcao">UNOPAR - Universidade Norte do Paraná</p>
-              <mat-list *ngFor="let item of list">
-                <mat-list-item class="section1_section2_content_atuacoes_down_atividades"> {{item}} </mat-list-item>              
-              </mat-list>              
-          </mat-card> -->
+        </mat-card>
+        <mat-card class="section1_section2_content_atuacoes">
+          <p class="section1_section2_content_atuacoes_up">Prospectors Aerolevantamentos e Sistemas Sucursal Colombia </p>
+          <mat-card class="section1_section2_content_atuacoes_down">
+            <p class="section1_section2_content_atuacoes_down_funcao">Gerente do Processamento de Dados: 01/Nov/2014 - 30/Nov/2017</p>
+            <div *ngFor="let item of atividadesPASCOL">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>
+          </mat-card>
+        </mat-card>
+        <mat-card class="section1_section2_content_atuacoes">
+          <p class="section1_section2_content_atuacoes_up">Prospectors Aerolevantamentos e Sistemas</p>
+          <mat-card class="section1_section2_content_atuacoes_down">
+            <p class="section1_section2_content_atuacoes_down_funcao">Gerente do Processamento de Dados: 01/Jul/2013 - 01/Set/2015</p>
+            <div *ngFor="let item of atividadesPASBR">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>              
+            <p class="section1_section2_content_atuacoes_down_funcao">Subgerente do Processamento de Dados: 01/Jan/2011 - 30/Jun/2013</p>
+            <p class="section1_section2_content_atuacoes_down_funcao">Geofísico de Campo - Processamento de Dados: 27/Ago/2008 - 31/12/2010</p>
+        </mat-card>
       </mat-card>
     </mat-card>
   </mat-card>
