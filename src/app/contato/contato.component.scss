@@ -45,6 +45,17 @@
                     font-family: 'Times New Roman', Times, serif;
                     font-size: 20px;                    
                 }
+
+                div{
+                    display: flex;
+                    justify-content: center;
+                }
+
+                p{
+                    position: relative;
+                    top: 5px;
+                    word-wrap: break-word;
+                }
                 
             }
             
@@ -62,6 +73,7 @@
     #aYoutube:hover{
         cursor: not-allowed;
     }
+
 }
 
 
@@ -115,9 +127,18 @@
                     a{
                         color: white;
                         font-family: 'Times New Roman', Times, serif;
-                        font-size: 20px; 
-                        word-wrap: break-word;
-                        display: none;    
+                        font-size: 20px;                            
+                    }
+
+                    div{
+                        display: flex;
+                        justify-content: center;
+                    }
+    
+                    p{
+                        position: relative;
+                        top: 5px;
+                        display: none;
                     }
                     
                 }
@@ -140,12 +161,20 @@
         #emailContato{
             display: block;
         }
+        
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
     #emailContato{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #emailContato{
+        margin: 0;
+        padding: 0;        
     }
 }
 
