@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+//import $ from "jquery";
+
 @Component({
   selector: 'app-atuacao-profissional',
   templateUrl: './atuacao-profissional.component.html',
@@ -18,6 +20,14 @@ export class AtuacaoProfissionalComponent implements OnInit {
     '- Angular',
     '- Azure Monitoring'
         ]
+
+        atividadesCEUNSP = [
+      'Disciplinas Ministradas:',
+      '- Engenharia de Software',
+      '- Lógica Computacional',
+      '- Programação para Dispositivos Móveis',
+      '- Teoria dos Grafos'
+    ]
   
   atividadesMktNow = [
     '- Reunir informações relevantes (dados dos clientes através de um sistema Google Analyticstc, por exemplo).',
@@ -58,5 +68,9 @@ export class AtuacaoProfissionalComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  // voltarTopo(){
+  //   $('html, body').animate({scrollTop:0}, 2000);
+  // }
 
 }

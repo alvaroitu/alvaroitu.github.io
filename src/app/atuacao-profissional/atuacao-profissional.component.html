@@ -14,6 +14,15 @@
           </mat-card>
         </mat-card>
         <mat-card class="section1_section2_content_atuacoes">        
+          <p class="section1_section2_content_atuacoes_up">CEUNSP - Centro Universitário Nossa Senhora do Patrocínio</p>
+          <mat-card class="section1_section2_content_atuacoes_down">
+            <p class="section1_section2_content_atuacoes_down_funcao">Professor Assistente II: 07/Fev/2022 - atual</p>            
+            <div *ngFor="let item of atividadesCEUNSP">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>
+          </mat-card>
+        </mat-card>
+        <mat-card class="section1_section2_content_atuacoes">        
           <p class="section1_section2_content_atuacoes_up">Agência MktNow</p>
           <mat-card class="section1_section2_content_atuacoes_down">
             <p class="section1_section2_content_atuacoes_down_funcao">Analista de BI Jr.: 10/Jul/2020 - 21/Jul/2021</p>
@@ -53,5 +62,16 @@
       </mat-card>
     </mat-card>
   </mat-card>
+
+
+  <div class="float-sm-right">
+    <div class="row justify-content-center">
+      <div class="col-sm">
+        <a id="aTopo" href="#" onclick="voltarTopo()">
+          <img src="images/logo/AlvaroItuLogoTopo.png" class="rounded mx-auto d-block img-fluid" id="imgTopo">
+      </a>
+      </div>
+    </div>
+  </div>
     
   

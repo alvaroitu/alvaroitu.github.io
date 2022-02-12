@@ -119,3 +119,20 @@
         }
     }
 }
+
+
+#imgTopo{
+    width: 87px;
+    height: 40px;
+}
+
+#imgTopo:hover{
+    background-color: rgb(80, 160, 215);
+}
+
+.float-sm-right{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    z-index: 10;
+}
