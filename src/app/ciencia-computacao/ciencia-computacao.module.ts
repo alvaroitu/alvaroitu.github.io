@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatCardModule } from '@angular/material/card';
+import { CienciaComputacaoComponent } from './ciencia-computacao.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    CienciaComputacaoComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule
   ]
 })
 export class CienciaComputacaoModule { }
