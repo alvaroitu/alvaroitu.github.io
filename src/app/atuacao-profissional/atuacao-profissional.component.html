@@ -1,7 +1,16 @@
-<mat-card class="section1">
+<mat-card class="section1" id="atuacaoProfissional">
     <mat-card class="section1_section2">
       <p class="section1_section2_titulo">Atuação Profissional</p>
       <mat-card class="section1_section2_content">
+        <mat-card class="section1_section2_content_atuacoes">        
+          <p class="section1_section2_content_atuacoes_up">CEUNSP - Centro Universitário Nossa Senhora do Patrocínio</p>
+          <mat-card class="section1_section2_content_atuacoes_down">
+            <p class="section1_section2_content_atuacoes_down_funcao">Professor Assistente II: 07/Fev/2022 - atual</p>            
+            <div *ngFor="let item of atividadesCEUNSP">
+              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
+            </div>
+          </mat-card>
+        </mat-card>
         <mat-card class="section1_section2_content_atuacoes">        
           <p class="section1_section2_content_atuacoes_up">IBM Brasil - Indústria, Máquina e Serviços Ltda</p>
           <mat-card class="section1_section2_content_atuacoes_down">
@@ -11,15 +20,6 @@
             </div>
             <br>
             <p class="section1_section2_content_atuacoes_down_funcao">Early Associate - Estágio DevSecOps: 14/Dez/2020 - 05/Set/2021</p>            
-          </mat-card>
-        </mat-card>
-        <mat-card class="section1_section2_content_atuacoes">        
-          <p class="section1_section2_content_atuacoes_up">CEUNSP - Centro Universitário Nossa Senhora do Patrocínio</p>
-          <mat-card class="section1_section2_content_atuacoes_down">
-            <p class="section1_section2_content_atuacoes_down_funcao">Professor Assistente II: 07/Fev/2022 - atual</p>            
-            <div *ngFor="let item of atividadesCEUNSP">
-              <p class="section1_section2_content_atuacoes_down_atividades"> {{item}} </p>              
-            </div>
           </mat-card>
         </mat-card>
         <mat-card class="section1_section2_content_atuacoes">        
@@ -61,17 +61,18 @@
         </mat-card>
       </mat-card>
     </mat-card>
+    <br>
+    <div class="float-sm-right">
+      <!-- <div class="row justify-content-center"> -->
+        <!-- <div class="col-sm"> -->
+          <a id="aTopo" href="#header" onclick="voltarTopo()">
+            <img src="../../assets/images/logo/AlvaroItuLogoTopo.png" class="rounded mx-auto d-block img-fluid" id="imgTopo">
+        </a>
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>
   </mat-card>
 
 
-  <div class="float-sm-right">
-    <div class="row justify-content-center">
-      <div class="col-sm">
-        <a id="aTopo" href="#" onclick="voltarTopo()">
-          <img src="images/logo/AlvaroItuLogoTopo.png" class="rounded mx-auto d-block img-fluid" id="imgTopo">
-      </a>
-      </div>
-    </div>
-  </div>
     
   
