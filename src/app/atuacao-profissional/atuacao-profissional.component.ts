@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-// import * as $ from "jquery";
+import * as $ from "jquery";
 
 @Component({
   selector: 'app-atuacao-profissional',
@@ -71,8 +71,10 @@ export class AtuacaoProfissionalComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // voltarTopo(){
-  //   $('html, body').animate({scrollTop:0}, 2000);
-  // }
+  voltarTopo(){
+    $('html, body').animate({scrollTop:0}, 2000);
+  }
+
+  
 
 }
