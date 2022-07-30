@@ -1,0 +1,115 @@
+.section1{
+    background-color: #C5CAE9;    
+    height: 91.5%;
+
+    &_section2{
+        background-color: #9FA8DA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_titulo{
+            font-size: 28px;            
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #linkPrefeitura{
+            color: white;
+            font-size: 18px;            
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+        }    
+        
+
+        &_content{
+            background-color: #C5CAE9;
+            display: flex;
+            flex-direction: row;
+
+            &_text{                
+                font-size: 16px;            
+                color: black;
+
+                h2{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 22px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+
+                p{
+                    color: black;
+                    font-size: 20px;
+                    line-height: 1.5;                    
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .section1{
+        background-color: #C5CAE9;    
+        height: 91.5%;
+    
+        &_section2{
+            background-color: #9FA8DA;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            &_titulo{
+                font-size: 28px;            
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+            }
+    
+            &_content{
+                background-color: #C5CAE9;
+                display: flex;
+                flex-direction: row;
+    
+                &_text{                
+                    //font-size: 16px;            
+                    //color: black;
+    
+                    p{
+                        color: black;
+                        font-size: 20px;
+                        line-height: 1.5;                    
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#imgTopo{
+    width: 87px;
+    height: 40px;
+    text-align: end;
+}
+
+#imgTopo:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.float-sm-right{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    z-index: 10;    
+}
+
+// @media screen and (min-width: 421px) {
+//     #aTopo{
+//         display: none;
+
+//     }
+    
+// }

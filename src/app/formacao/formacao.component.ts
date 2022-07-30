@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as $ from "jquery";
+
 @Component({
   selector: 'app-formacao',
   templateUrl: './formacao.component.html',
@@ -21,6 +23,10 @@ export class FormacaoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  voltarTopo(){
+    $('html, body').animate({scrollTop:0}, 2000);
   }
 
 }
