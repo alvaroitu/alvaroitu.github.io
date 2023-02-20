@@ -2,44 +2,50 @@
     <mat-card class="section1_section2">
         <p class="section1_section2_titulo">Portifólio</p>
         <mat-card class="section1_section2_content">
-          <mat-card class="section1_section2_content_formacoes">        
-            <p class="section1_section2_content_formacoes_up">Repositório Github</p>
-            <mat-card class="section1_section2_content_formacoes_down">
-              <p class="section1_section2_content_formacoes_down_faculdade">UNESP - Universidade Estadual Paulista</p>
-              <p class="section1_section2_content_formacoes_down_curso">Engenharia Cartográfica - 2001 a 2005</p>
+          <mat-card class="section1_section2_content_portifolio">        
+            <p class="section1_section2_content_portifolio_up">Projetos Pessoais</p>
+            <mat-card class="section1_section2_content_portifolio_down">
+              <p class="section1_section2_content_portifolio_down_nome"> Algoritmos Resolvidos - Página. </p>
+              <p class="section1_section2_content_portifolio_down_descricao"> Plataforma com diversos algoritmos em diferentes linguagens. 
+                <a id="aBar" target="_blank" href="http://algoritmosresolvidos.com.br/"> Algoritmos Resolvidos.</a>.
+              </p>
               <br><br>
-              <p class="section1_section2_content_formacoes_down_faculdade">CEUNSP - Centro Universitário Nossa Senhora do Patrocínio</p>
-              <p class="section1_section2_content_formacoes_down_curso">Ciência da Computação - 2018 a 2021</p>
+              <p class="section1_section2_content_portifolio_down_nome">Álvaro Itu - Canal do Youtube</p>
+              <p class="section1_section2_content_portifolio_down_descricao">Canal voltado para explicar a resolução dos algoritmos e outros temas voltados para computação além de assuntos diversos.
+                <a id="aBar" target="_blank" href="https://www.youtube.com/@alvaroitu"> Álvaro Itu.</a>.
+              </p>              
             </mat-card>
           </mat-card>
-          <mat-card class="section1_section2_content_formacoes">        
-            <p class="section1_section2_content_formacoes_up">Criação de logotipo - Software Inkscape</p>
-            <mat-card class="section1_section2_content_formacoes_down">
+          <mat-card class="section1_section2_content_portifolio">        
+            <p class="section1_section2_content_portifolio_up">Repositório Github</p>
+            <mat-card class="section1_section2_content_portifolio_down">
+              <p class="section1_section2_content_portifolio_down_nome">UNESP - Universidade Estadual Paulista</p>
+              <p class="section1_section2_content_portifolio_down_descricao">Engenharia Cartográfica - 2001 a 2005</p>
+              <br><br>
+              <p class="section1_section2_content_portifolio_down_nome">CEUNSP - Centro Universitário Nossa Senhora do Patrocínio</p>
+              <p class="section1_section2_content_portifolio_down_descricao">Ciência da Computação - 2018 a 2021</p>
+            </mat-card>
+          </mat-card>
+          <mat-card class="section1_section2_content_portifolio">        
+            <p class="section1_section2_content_portifolio_up">Criação de logotipo - Software Inkscape</p>
+            <mat-card class="section1_section2_content_portifolio_down">
               <mat-grid-list cols="2" rowHeight="2:1">
-                <mat-grid-tile>
-                  <img src="./assets/images/logoportifolio/deliciasestacao.png" class="rounded mx-auto d-block img-fluid">
-                  <p>gagsdg</p>
-                </mat-grid-tile>
+                <mat-grid-tile><img src="./assets/images/logoportifolio/deliciasestacao.png" class="rounded mx-auto d-block img-fluid"></mat-grid-tile>
                 <mat-grid-tile><img src="./assets/images/logoportifolio/mangiarepasta.png" class="rounded mx-auto d-block img-fluid"></mat-grid-tile>
                 <mat-grid-tile><img src="./assets/images/logoportifolio/sikadias.png" class="rounded mx-auto d-block img-fluid"></mat-grid-tile>
                 <mat-grid-tile><img src="./assets/images/logoportifolio/souveran.png" class="rounded mx-auto d-block img-fluid"></mat-grid-tile>
               </mat-grid-list>            
             </mat-card>
-          </mat-card>
-          <mat-card class="section1_section2_content_formacoes">        
-            <p class="section1_section2_content_formacoes_up">Criação de logotipo - Software Inkscape</p>
-            <mat-card class="section1_section2_content_formacoes_down">
-              tat
-            </mat-card>
-          </mat-card>          
-        </mat-card>
-        <br>
-        <!-- <div class="float-sm-right"> -->
-          <a id="aTopo" (click)="voltarTopo()">
-              <img src="./assets/images/logo/AlvaroItuLogoTopo.png" class="rounded mx-auto d-block img-fluid" id="imgTopo">
-          </a>      
-        <!-- </div> -->
+          </mat-card>                    
+        </mat-card>        
       </mat-card>
+      <div id="botaoVoltarTopo" class="float-sm-right">
+        <div class="row justify-content-center">
+          <div class="col-sm" (click)="voltarTopo()">        
+              <img src="./assets/images/logo/AlvaroItuLogoTopo.png" class="rounded mx-auto d-block img-fluid" id="imgTopo">      
+          </div>
+        </div>
+      </div>  
     <!-- </mat-card> -->
       
     

@@ -16,7 +16,9 @@ export class PortifolioComponent implements OnInit {
   }
 
   voltarTopo(){
-    $('html, body').animate({scrollTop:0}, 2000);
+    window.scrollTo(0,0);
   }
+
+  
 
 }

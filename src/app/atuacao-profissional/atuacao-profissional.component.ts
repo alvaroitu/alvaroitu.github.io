@@ -25,7 +25,7 @@ export class AtuacaoProfissionalComponent implements OnInit {
     '- Paradigmas de Linguagens de Programação',
     '- Pensamento Computacional',
     '- Modelagem de Negócios e Requisitos',    
-    '+ Cuirso de Arquitetura e Urbanismo',
+    '+ Curso de Arquitetura e Urbanismo',
     '- Topografia e Sistemas de Informações Geográficas'
   ]
 
@@ -40,19 +40,6 @@ export class AtuacaoProfissionalComponent implements OnInit {
     '- Angular',
     '- Azure Monitoring'
   ]
-<<<<<<< HEAD
-=======
-
-  atividadesCEUNSP = [
-    'Disciplinas Ministradas:',
-    '- Engenharia de Software',
-    '- Lógica Computacional',
-    '- Programação para Dispositivos Móveis',
-    '- Teoria dos Grafos',
-    '- Paradigmas de Linguagens de Programação',
-    '- Topografia'
-  ]
->>>>>>> a153b586c7b4d70cdd14c606f4624d440f1a0f19
   
   atividadesMktNow = [
     '- Reunir informações relevantes (dados dos clientes através de um sistema Google Analyticstc, por exemplo).',
@@ -95,14 +82,6 @@ export class AtuacaoProfissionalComponent implements OnInit {
   }
 
   voltarTopo(){
-<<<<<<< HEAD
     window.scrollTo(0,0);
   }
-=======
-    $('html, body').animate({scrollTop:0}, 2000);
-  }
-
-  
-
->>>>>>> a153b586c7b4d70cdd14c606f4624d440f1a0f19
 }

@@ -89,27 +89,22 @@
 }
 
 #imgTopo{
-    width: 87px;
-    height: 40px;
-    text-align: end;
+    width: 80px;
+    height: 37px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #imgTopo:hover{
-    background-color: white;
+    background-color: rgb(80, 160, 215);
     cursor: pointer;
 }
 
-.float-sm-right{
+#botaoVoltarTopo{
     position: -webkit-sticky;
     position: sticky;
     bottom: 0px;
-    z-index: 10;    
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
 }
-
-// @media screen and (min-width: 421px) {
-//     #aTopo{
-//         display: none;
-
-//     }
-    
-// }
