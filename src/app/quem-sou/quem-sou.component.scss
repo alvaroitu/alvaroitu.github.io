@@ -11,7 +11,7 @@
         &_titulo{
             font-size: 28px;            
             font-weight: bold;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: 'Times New Roman', Times, serif;            
         }
 
         &_content{
@@ -106,4 +106,30 @@
             }
         }
     }
+}
+
+#imgTopo{
+    width: 87px;
+    height: 40px;
+    text-align: end;
+}
+
+#imgTopo:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.float-sm-right{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    z-index: 10;    
+}
+
+@media screen and (min-width: 421px) {
+    #aTopo{
+        display: none;
+
+    }
+    
 }

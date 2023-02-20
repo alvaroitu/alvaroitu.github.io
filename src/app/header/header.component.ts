@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   openDialog() {
     this.dialog.open(ContatoComponent,{
       width: '1000px',
-      height: '500px',
+      height: '510px',
     });
   }
 

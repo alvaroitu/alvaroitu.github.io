@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as $ from "jquery";
+
+
 @Component({
   selector: 'app-atuacao-academica',
   templateUrl: './atuacao-academica.component.html',
@@ -36,12 +39,12 @@ export class AtuacaoAcademicaComponent implements OnInit {
   ]
   
   atividadesUSP = [
-    'Estudo do Geóide Gravimétrico',
+    '- Estudo do Geóide Gravimétrico',
     
   ]
 
   atividadesUNESP = [
-    'Esudo de Filme Ultrafino de Ligninas'
+    '- Estudo de Filmes Ultrafinos de Ligninas'
   ] 
 
   constructor() { }
