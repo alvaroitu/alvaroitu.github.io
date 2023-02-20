@@ -12,4 +12,8 @@ export class CienciaComputacaoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  voltarTopo(){
+    window.scrollTo(0,0);
+  }
+
 }

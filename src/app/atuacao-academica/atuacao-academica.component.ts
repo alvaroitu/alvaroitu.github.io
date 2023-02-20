@@ -49,4 +49,8 @@ export class AtuacaoAcademicaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  voltarTopo(){
+    window.scrollTo(0,0);
+  }
+
 }

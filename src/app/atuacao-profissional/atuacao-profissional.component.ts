@@ -9,6 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AtuacaoProfissionalComponent implements OnInit {
 
+  atividadesSenior = [
+    '- Desenvolvimento Back-end: Java com Spring.',
+    '- Desenvolvimento Front-end: Angular'
+  ]
+
+  atividadesCEUNSP = [
+    '* Disciplinas Ministradas:', 
+    '+ Cursos de Ciência da Computação e de Análise e Desenvolvimento de Sistemas',
+    '- Engenharia de Software',
+    '- Lógica Computacional',
+    '- Programação para Dispositivos Móveis',
+    '- Teoria dos Grafos',
+    '- Programação de Computadores',    
+    '- Paradigmas de Linguagens de Programação',
+    '- Pensamento Computacional',
+    '- Modelagem de Negócios e Requisitos',    
+    '+ Cuirso de Arquitetura e Urbanismo',
+    '- Topografia e Sistemas de Informações Geográficas'
+  ]
+
   atividadesIBM = [
     '- Participação em treinamentos em diversas áreas de TI, com ênfase em DevSecOps.',
     '- Implantar aplicativos via processo automatizado.',
@@ -19,15 +39,7 @@ export class AtuacaoProfissionalComponent implements OnInit {
     '- Mongo DB',
     '- Angular',
     '- Azure Monitoring'
-        ]
-
-        atividadesCEUNSP = [
-      'Disciplinas Ministradas:',
-      '- Engenharia de Software',
-      '- Lógica Computacional',
-      '- Programação para Dispositivos Móveis',
-      '- Teoria dos Grafos'
-    ]
+  ]
   
   atividadesMktNow = [
     '- Reunir informações relevantes (dados dos clientes através de um sistema Google Analyticstc, por exemplo).',
@@ -69,8 +81,7 @@ export class AtuacaoProfissionalComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // voltarTopo(){
-  //   $('html, body').animate({scrollTop:0}, 2000);
-  // }
-
+  voltarTopo(){
+    window.scrollTo(0,0);
+  }
 }
